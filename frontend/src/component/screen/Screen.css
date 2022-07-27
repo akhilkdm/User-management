@@ -1,0 +1,31 @@
+.main{
+    min-height: 93vh;
+    display: flex;
+  
+    background-image: url(../../download.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.title{
+    margin-top: 14rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.intro-text{
+    width: 100%;
+    text-align: center;
+}
+.buttonContainer{
+    margin-top: 10%;
+    text-align: center;
+    margin-top: 10px;
+    justify-content: space-evenly;
+
+}
+.landingButton{
+    width: 7rem;
+    height: 3rem;
+    margin-left: 5px;
+
+}

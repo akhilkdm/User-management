@@ -1,0 +1,33 @@
+{
+  "name": "react--login",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon backend/server.js",
+    "client": "npm start --prefix frontend",
+    "dev": "concurrently \"npm start\" \"npm run client\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "concurrently": "^7.2.2",
+    "cros": "^1.0.1",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.4.0",
+    "nodemon": "^2.0.16"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Asif-Saheer-k/React-LoginPage.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Asif-Saheer-k/React-LoginPage/issues"
+  },
+  "homepage": "https://github.com/Asif-Saheer-k/React-LoginPage#readme",
+  "description": ""
+}
